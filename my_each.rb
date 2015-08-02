@@ -1,6 +1,10 @@
 def my_each(words)
   # code here
-  words.each do |word|
-  	puts word
+  index = 0
+
+  while index < words.length do
+  	puts words[index]
+  	index += 1
   end
+  words
 end
